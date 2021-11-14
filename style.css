@@ -93,6 +93,10 @@ input {
     background-image: url(./assets/labelBackground..jpg);
 }
 
+.casilla {
+    color: black;
+}
+
 .registrar {
     background-image: url(./assets/navBackground.jpg);
 }
