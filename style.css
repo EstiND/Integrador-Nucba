@@ -69,12 +69,11 @@ h1 {
 }
 
 .divContacto {
-    background-color: white;
+    background-image: url(./assets/footerBackground.jpg);
 }
 
 .contacto {
-    background-color: white;
-    color: black;
+    background-image: url(./assets/footerBackground.jpg);
     display: inline;
     text-align: center;
     margin: auto;
@@ -99,7 +98,7 @@ label {
 }
 
 input {
-    background-image: url(./assets/labeloBackground.jgp.jpg);
+    background-image: url(./assets/labelBackground..jpg);
 }
 
 .registrar {
