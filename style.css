@@ -5,6 +5,8 @@
     margin: 0;
     background-image: url(./assets/background.jpg);
     font-family: 'Fira Sans', sans-serif;
+    font-size: 1.0em;
+    color: white;
 }
 
 header {
@@ -79,16 +81,6 @@ h1 {
     margin: auto;
 }
 
-h2,
-h3,
-p,
-input,
-.terminosYcondiciones,
-.TyC,
-.registrar {
-    font-size: 1.0em;
-    color: white;
-}
 
 label {
     display: flex;
