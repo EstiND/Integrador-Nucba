@@ -142,6 +142,21 @@ article {
     margin: 1%;
 }
 
+.tYc {
+    border-radius: 1%;
+    background-color: bisque;
+    padding: 2%;
+    margin: 0%;
+}
+
+.terminosYcondiciones {
+    padding: 1%;
+}
+
+.terminosYcondiciones {
+    text-decoration: none;
+}
+
 article p {
     color: black;
 }
@@ -160,9 +175,6 @@ label {
     justify-content: center;
 }
 
-.casilla {
-    color: black;
-}
 
 input {
     padding: 1%;
