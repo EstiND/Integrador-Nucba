@@ -1,52 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&family=Finger+Paint&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
 
 * {
-    padding: 1%;
-    margin: 0;
-    background-image: url(./assets/background.jpg);
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1.0em;
-    color: white;
-}
-
-header {
-    position: sticky;
-    top: -10%;
-}
-
-
-header img {
-    width: 20%;
-    margin: auto;
-    display: block;
+    padding: 0%;
+    margin: 0%;
 }
 
 h1 {
     display: none;
 }
 
-.navList {
-    display: inline;
-    font-size: 1.5em;
-    padding: 0.5% 2%;
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightcoral;
+    width: 100%;
+    height: 70px;
+}
+
+.navBar li,
+nav a {
+    text-decoration: none;
+    color: lightblue;
+    font-family: 'Pacifico', cursive;
 }
 
 
-.navList a {
+.navBar {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav a {
+    margin: 15px;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
     color: white;
 }
 
-.navListRef:hover {
-    background-image: url(./assets/navBackground.jpg);
+main {
+    padding: 8%;
+    background-color: rgb(223, 221, 221);
+    
 }
 
 .anuncio {
-    color: rgb(128, 122, 122);
+    border-radius: 25px;
     text-align: center;
-    margin: auto;
-    font-size: 1.5em;
-    background-image: url(./assets/anuncioBackground.jpg);
+    font-size: 2em;
+    background-color: lightgreen;
+    width: 100%;
+    height: 20%;
+    font-family: 'Sigmar One', cursive;
+}
+
+p {
+    color: white;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-family: serif;
 }
 
 .popular,
@@ -56,8 +93,22 @@ h1 {
 
 .imgPopular,
 .imgNoPopular {
+    padding: 1.7%;
     width: 30%;
     height: 25%;
+    display: flex;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+img:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .descripcionPopular,
@@ -66,21 +117,41 @@ h1 {
 }
 
 .pDescripcion {
+    width: 30%;
     background-color: rgb(39, 38, 38);
+    padding: 5%;
+    border-radius: 25px;
+    font-family: 'Outfit', sans-serif;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(95, 150, 150);
+    color: white;
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+article {
+    border-radius: 1;
+    background-color: bisque;
+    padding: 1%;
     margin: 1%;
 }
 
-.divContacto {
-    background-image: url(./assets/footerBackground.jpg);
+article p {
+    color: black;
 }
 
-.contacto {
-    background-image: url(./assets/footerBackground.jpg);
-    display: inline;
-    text-align: center;
-    margin: auto;
+form ,
+.h2 {
+    border-radius: 1%;
+    padding: 1%;
+    background-color: cornflowerblue;
 }
-
 
 label {
     display: flex;
@@ -89,18 +160,11 @@ label {
     justify-content: center;
 }
 
-input {
-    background-image: url(./assets/labelBackground..jpg);
-}
-
 .casilla {
     color: black;
 }
 
-.registrar {
-    background-image: url(./assets/navBackground.jpg);
-}
-
-.registrar:hover {
-    background-image: url(./assets/background.jpg);
+input {
+    padding: 1%;
+    margin: 1%;
 }

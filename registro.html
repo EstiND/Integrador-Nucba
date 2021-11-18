@@ -12,37 +12,35 @@
 
 <body>
     <header>
-        <h1>Milu's Music</h1>
-        <a href="./index.html">
-            <img class="logo" src="./assets/logo.svg" alt="Logo">
-        </a>
-
+        <h1>Milu Music´s</h1>
         <nav>
-            <ul>
-                <li class="navList"><a class="navListRef" href="./index.html">Inicio</a></li>
-                <li class="navList"><a class="navListRef" href="./productos.html">Productos</a></li>
-                <li class="navList"><a class="navListRef" href="./login.html">Login</a></li>
-                <li class="navList"><a class="navListRef" href="./nosotros.html">Nosotros</a></li>
+            <a href="./index.html" class="logo">Milu´s Music</a>
+            <ul class="navBar">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./login.html">Login</a></li>
             </ul>
         </nav>
     </header>
 
+
+
     <main>
         <center>
-            <h2>Registrate y recibí beneficios en cada compra.</h2>
+            <h2 class="h2">Registrate y recibí beneficios en cada compra.</h2>
         </center>
         <form method="POST" action="./login.html">
             <label>
-                <input class="casilla" type="email" name="email" id="email" placeholder="Ingrese su Email" required
-                    />
+                <input class="casilla" type="email" name="email" id="email" placeholder="Ingrese su Email" required />
             </label>
             <label>
                 <input class="casilla" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"
-                    minlength="3" maxlength="24" required/>
+                    minlength="3" maxlength="24" required />
             </label>
             <label>
                 <input class="casilla" type="password" name="password" id="password" placeholder="Ingrese su contraseña"
-                    minlength="3" maxlength="24" required/>
+                    minlength="3" maxlength="24" required />
             </label>
             <label>
                 <input class="casilla" type="checkbox" name="requirement" id="requirement2" value="checkbox_2"
@@ -58,12 +56,11 @@
             <center>
                 <input class="registrar" type="submit" name="submit" value="Registrarme">
             </center>
-
         </form>
     </main>
 
     <footer>
-        <div class="divContacto">
+        <div>
             <p class="contacto">MilusMusic@gmail.com</p>
             <p class="contacto">+54 156511 35436</p>
             <p class="contacto">&copy 2021 Esteban Diaz para Nucba</p>
